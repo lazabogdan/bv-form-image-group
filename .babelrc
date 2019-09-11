@@ -1,0 +1,11 @@
+{
+  "presets": [
+    ["@babel/env", {
+      "modules": false,
+      "targets": {
+        "ie": "11",
+        "browsers": ["last 2 versions"]
+      }
+    }]
+  ]
+}
